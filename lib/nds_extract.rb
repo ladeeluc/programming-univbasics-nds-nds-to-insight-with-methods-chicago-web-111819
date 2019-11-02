@@ -8,7 +8,7 @@ require 'directors_database'
  
   def directors_totals(nds)
     director_index = 0
-  totals = {}
+    totals = {}
 
   while director_index < nds.length do
     director_name = nds[director_index][:name]
