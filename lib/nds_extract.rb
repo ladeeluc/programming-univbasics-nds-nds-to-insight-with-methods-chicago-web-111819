@@ -31,7 +31,7 @@ require 'directors_database'
 
 def gross_for_director(director_data)
   
-    gross_total = {}
+    gross_total = 0
     movie_index = 0
      
      while movie_index < director_data[:movies].length do
