@@ -40,6 +40,6 @@ end
 movie_index += 1
 end
 
-p gross_total
+gross_total
 
               
