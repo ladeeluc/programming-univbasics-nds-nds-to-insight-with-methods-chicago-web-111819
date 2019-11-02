@@ -32,11 +32,11 @@ require 'directors_database'
 def gross_for_director(director_data)
   
     gross_total = {}
-    hash_index = 0
+    director_index = 0
     movie_index = 0
      
      while movie_index < director_data.length do
-          gross_total += [movie_index][:worldwide_gross]       
+          gross_total += [:movie][movie_index][:worldwide_gross]       
 end
 p gross_total
 end
